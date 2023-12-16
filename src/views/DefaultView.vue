@@ -1,12 +1,10 @@
 <template>
   <main>
-    <div class="container">
-      <p class="text-primary">Hello World!</p>
-    </div>
+    <RouterView />
   </main>
 </template>
 <script>
-// import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 export default {
 
 }
