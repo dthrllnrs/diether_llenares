@@ -1,11 +1,11 @@
 <template>
   <div class="personal-info-container">
-    <h1 class="name">
+    <p class="name fw-bold fs-1 mb-0">
       Diether Llenares
-    </h1>
-    <h2 class="title">Experienced Fullstack Developer</h2>
+    </p>
+    <p class="title fw-bold text-uppercase fs-6">Experienced Fullstack Developer</p>
     <p class="short-intro pt-3 text-muted">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed ipsa neque odio et. Nulla porro illo modi nisi consequatur.
+      Hard working web developer that urges to solve complex problems with powerful solutions. Passionate about backend development and creating ﬂawless database structures
     </p>
   </div>
 </template>
@@ -13,13 +13,9 @@
   .personal-info-container {
     .name {
       color: white;
-      font-size: 3rem;
-    }
-    .title {
-      font-size: 1.25rem;
     }
     .short-intro {
-      max-width: 25rem;
+      max-width: 80%;
     }
   }
 </style>

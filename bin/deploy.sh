@@ -9,7 +9,7 @@ REMOTE_DIR="/var/www/html/portfolio"
 LOCAL_DIST_PATH="./dist"
 
 # SSH key file (optional, only if you use key-based authentication)
-SSH_KEY_FILE="path/to/your/private-key.pem"
+SSH_KEY_FILE="./bin/ssh/portfolio.ppk"
 
 # SSH command
 SSH_CMD="ssh -i $SSH_KEY_FILE $EC2_USER@$EC2_HOST"

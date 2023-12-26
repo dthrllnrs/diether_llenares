@@ -1,0 +1,92 @@
+.main-container {
+    gap: 1rem;
+    header {
+        height: min-content;
+    }
+    > header, > div {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+        margin-bottom: 6rem;
+        scroll-margin-top: 6rem;
+        > .title {
+            display: block;
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+            background-color: $dark;
+            padding: 1.25rem 0;
+            p {
+                margin-bottom: 0;
+                font-weight: bold;
+            }
+        }
+        .stack {
+            .stack-badge {
+                background-color: rgba($themeBgColor, 0.5);
+                color: $primary;
+                margin-right: 1rem;
+                font-size: small;
+            }
+        }
+        .card-with-sidebar {
+            gap: 1rem;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: start;
+            border-radius: .5rem;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-duration: .15s;
+            padding: 0.5rem;
+            &:hover {
+                background-color: rgba(white, 0.1);
+                cursor: pointer;
+            }
+            .card-sidebar {
+                width: 100%;
+                font-size: smaller;
+                font-weight: bold;
+            }
+            .card-main {
+                width: 100%;
+                .title {
+                    color: white;
+                }
+                .projects {
+                    .project-badge {
+                        margin-right: 1rem;
+                        svg {
+                            width: 0.75rem;
+                            height: 0.75rem;
+                            margin-right: 0.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include media-breakpoint-up(lg) { 
+        header {
+            height: 100vh;
+        }
+        > header, > div {
+            width: 50%;
+        }
+        section {
+            > .title {
+                display: none;
+            }
+            .card-with-sidebar {
+                flex-wrap: nowrap;
+                .card-sidebar {
+                    width: 25%;
+                }
+                .card-main {
+                    width: 75%;
+                }
+            }
+        }
+     }
+}
