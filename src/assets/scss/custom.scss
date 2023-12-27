@@ -6,6 +6,17 @@
     > header, > div {
         width: 100%;
     }
+    .hover-link {
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        transition-duration: .15s;
+        &:hover {
+            color: $primary;
+        }
+    }
     section {
         width: 100%;
         margin-bottom: 6rem;
@@ -43,6 +54,11 @@
             &:hover {
                 background-color: rgba(white, 0.1);
                 cursor: pointer;
+                .card-main {
+                    .title {
+                        color: $primary;
+                    }
+                }
             }
             .card-sidebar {
                 width: 100%;
@@ -52,11 +68,20 @@
             .card-main {
                 width: 100%;
                 .title {
+                    transition-property: all;
+                    transition-timing-function: cubic-bezier(.4,0,.2,1);
+                    transition-duration: .15s;
                     color: white;
                 }
                 .projects {
                     .project-badge {
                         margin-right: 1rem;
+                        transition-property: all;
+                        transition-timing-function: cubic-bezier(.4,0,.2,1);
+                        transition-duration: .15s;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                         svg {
                             width: 0.75rem;
                             height: 0.75rem;

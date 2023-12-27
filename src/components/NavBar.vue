@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar d-none d-lg-block">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" v-scroll-spy-active="{selector: 'li.nav-item a.nav-link'}" v-scroll-spy-link>
             <li class="nav-item">
                 <a class="nav-link about py-2 active" href="#about">
                     <span class="indicator"></span>

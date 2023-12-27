@@ -9,7 +9,7 @@
       </div>
       <FooterComponent />
     </header>
-    <div class="py-lg-5">
+    <div class="py-lg-5" v-scroll-spy="{offset: 100}">
       <About />
       <Experience />
       <Projects />
@@ -31,26 +31,6 @@ export default {
     About,
     Experience,
     Projects,
-  },
-  created() {
-    const sections = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".navbar-nav ul li a");  
-    console.log(scrollY, sections, navLinks);
-    window.addEventListener('scroll', () => {
-      let current = '';
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        if (scrollY >= sectionTop - 60) {
-          current = section.getAttribute("id"); }
-      });
-
-      navLinks.forEach((li) => {
-        li.classList.remove("active");
-        if (li.classList.contains(current)) {
-          li.classList.add("active");
-        }
-      });
-    });
   },
 }
 </script>

@@ -1,5 +1,5 @@
 import './assets/main.scss';
-import { ScrollSpy } from 'bootstrap';
+import { registerScrollSpy } from 'vue3-scroll-spy';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -11,5 +11,6 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+registerScrollSpy(app)
 
 app.mount('#app')
