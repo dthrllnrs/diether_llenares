@@ -5,7 +5,7 @@ export default ([
     company_website: null, // Or add if available
     duration: {
       from: 'May 2024',
-      to: 'Present'
+      to: 'April 2025'
     },
     description: 'Promoted to Team Lead, spearheading the company\'s transition to Agile methodology for improved efficiency and faster project delivery. Proven expertise in the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire) to drive streamlined development processes. Leading a collaborative team environment to deliver high-quality projects on time.',
     stack: ['Laravel', 'Livewire', 'Alpine.js', 'Tailwind CSS'],
