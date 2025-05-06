@@ -27,7 +27,7 @@
                 </div>
             </div>
         </template>
-        <a class="hover-link" href="/Diether_Llenares.pdf" target="_blank" rel="noopener noreferrer">
+        <a class="hover-link" href="/2025_Diether_Llenares.pdf" target="_blank" rel="noopener noreferrer">
             View full resume
         </a>
     </section>

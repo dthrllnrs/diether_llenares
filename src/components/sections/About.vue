@@ -14,12 +14,12 @@
             and a <a class="hover-link" href="https://www.pictureworks.com.au/" target="_blank" rel="noopener noreferrer">SaaS company</a>.
         </p>
         <p class="mb-3">
-            Currently, my main focus revolves around developing and maintaining software for our clients at <a class="hover-link" href="https://www.kineticstaff.com/" target="_blank" rel="noopener noreferrer">Kinetic Innovative Staffing</a>. 
-            During my free time, I dedicate myself to continuous learning, immersing in the latest technologies, 
-            and delving into Data Structures and Algorithms with the goal of being among the top 1% in the industry.
+            Currently, my main focus revolves around developing and maintaining software solutions for various clients as a freelancer. 
+            Beyond project work, I dedicate myself to continuous learning, immersing in the latest technologies, and delving into 
+            Data Structures and Algorithms with the goal of being among the top 1% in the industry
         </p>
         <p class="mb-3">
-            When I'm not at the computer, I usually play <a class="hover-link" href="https://www.chess.com/member/ricklepick14" target="_blank" rel="noopener noreferrer">chess</a>, or hang out with my wife and kids.
+            When I'm not at the computer, I usually play <a class="hover-link" href="https://www.chess.com/member/dthrllnrs" target="_blank" rel="noopener noreferrer">chess</a>, or hang out with my wife and kids.
         </p>
     </section>
 </template>

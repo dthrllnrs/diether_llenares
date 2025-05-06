@@ -39,7 +39,7 @@ export default ([
     company_website: 'https://www.kineticstaff.com/',
     duration: {
       from: 'March 2023',
-      to: 'Present'
+      to: 'May 2024'
     },
     description: 'Managed development and maintenance of multiple Vue.js web portal projects, showcasing expertise in project management and technical execution. Successfully led the complete lifecycle of the Read Aloud Challenge Portal, from concept to deployment. Implemented Vue.js functionality and design with precision, aligning closely with Figma specifications for a user-centric experience.',
     stack: ['VueJS', 'Bootstrap', 'Pinia', 'SCSS'],
